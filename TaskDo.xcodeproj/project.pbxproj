@@ -3,16 +3,82 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D05AC2B2D25154E88D5485C /* Pods_TaskDo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 76CAEA1B38917058C6AFB9C0 /* Pods_TaskDo.framework */; };
+		A0EE721E79784099F341F442 /* Pods_TaskDoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C438756C16EF9DD0D846B5E4 /* Pods_TaskDoTests.framework */; };
+		D90A01B125D21D4D006852EB /* LineChartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A01B025D21D4D006852EB /* LineChartView.swift */; };
+		D90A01D425DB6AC8006852EB /* CalendarListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A01D325DB6AC5006852EB /* CalendarListView.swift */; };
+		D90A01D925DBA7DD006852EB /* ProfileView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A01D825DBA7DA006852EB /* ProfileView.swift */; };
+		D90A01FD25DE1526006852EB /* TopPopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A01FC25DE1522006852EB /* TopPopUpView.swift */; };
+		D90A020325DE1B7D006852EB /* Lottie in Frameworks */ = {isa = PBXBuildFile; productRef = D90A020225DE1B7D006852EB /* Lottie */; };
+		D90A021125DE1C5E006852EB /* LottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D90A021025DE1C5E006852EB /* LottieView.swift */; };
+		D91C62BE25C50B7B004E50C7 /* TimerTagsOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C62BD25C50B7B004E50C7 /* TimerTagsOptionsView.swift */; };
+		D91C62C325C5181D004E50C7 /* StatsItemViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C62C225C5181D004E50C7 /* StatsItemViewModel.swift */; };
+		D91C62C825C546AB004E50C7 /* StatsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C62C725C546AB004E50C7 /* StatsViewModel.swift */; };
+		D91C62CD25C7D4BE004E50C7 /* NotesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C62CC25C7D4BE004E50C7 /* NotesView.swift */; };
+		D91C62D225C80DC1004E50C7 /* NotesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C62D125C80DC1004E50C7 /* NotesViewModel.swift */; };
+		D91C62D725C926E2004E50C7 /* NotesService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C62D625C926E1004E50C7 /* NotesService.swift */; };
+		D91C62DC25C92775004E50C7 /* Notes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D91C62DB25C92775004E50C7 /* Notes.swift */; };
+		D92960B52685EB7100A58D9B /* Tick.json in Resources */ = {isa = PBXBuildFile; fileRef = D92960B42685EB7100A58D9B /* Tick.json */; };
+		D92960BD2685EBDE00A58D9B /* TickLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92960BC2685EBDE00A58D9B /* TickLottieView.swift */; };
+		D92960F42692B1E900A58D9B /* Cloud.json in Resources */ = {isa = PBXBuildFile; fileRef = D92960F32692B1E900A58D9B /* Cloud.json */; };
+		D92960F92692B21C00A58D9B /* CloudLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D92960F82692B21C00A58D9B /* CloudLottieView.swift */; };
+		D929613426969DBF00A58D9B /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = D929613326969DBF00A58D9B /* FSCalendar */; };
+		D93DD569261E9370005B88D2 /* LogInSignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DD568261E936F005B88D2 /* LogInSignUpView.swift */; };
+		D93DD56E261E937E005B88D2 /* SignOutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93DD56D261E937E005B88D2 /* SignOutView.swift */; };
+		D93EC58825CE71460050FEFB /* PagerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93EC58725CE71450050FEFB /* PagerView.swift */; };
+		D93EC58E25D0CBF90050FEFB /* DayStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93EC58D25D0CBF90050FEFB /* DayStatsView.swift */; };
+		D93EC59625D0CC150050FEFB /* WeekStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93EC59525D0CC150050FEFB /* WeekStatsView.swift */; };
+		D93EC59B25D0CC240050FEFB /* MonthStatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D93EC59A25D0CC240050FEFB /* MonthStatsView.swift */; };
+		D945F5E725BFACF50088FAD2 /* DefaultSettings.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945F5E625BFACF50088FAD2 /* DefaultSettings.swift */; };
+		D945F5EF25C011590088FAD2 /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945F5EE25C011590088FAD2 /* Date+Extension.swift */; };
+		D945F5F425C114190088FAD2 /* TimerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945F5F325C114190088FAD2 /* TimerView.swift */; };
+		D945F5F925C114370088FAD2 /* StatsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945F5F825C114370088FAD2 /* StatsView.swift */; };
+		D945F5FE25C12CD80088FAD2 /* ViewExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945F5FD25C12CD70088FAD2 /* ViewExtension.swift */; };
+		D945F60325C15B590088FAD2 /* AnimationExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945F60225C15B590088FAD2 /* AnimationExtension.swift */; };
+		D945F60825C26EE70088FAD2 /* TimerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945F60725C26EE60088FAD2 /* TimerViewModel.swift */; };
+		D945F61525C3E6CA0088FAD2 /* StatsService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945F61425C3E6C90088FAD2 /* StatsService.swift */; };
+		D945F61A25C3E8350088FAD2 /* Stats.swift in Sources */ = {isa = PBXBuildFile; fileRef = D945F61925C3E8350088FAD2 /* Stats.swift */; };
 		D957E64025A58E33003D5F46 /* TaskDoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957E63F25A58E33003D5F46 /* TaskDoApp.swift */; };
-		D957E64225A58E33003D5F46 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957E64125A58E33003D5F46 /* ContentView.swift */; };
+		D957E64225A58E33003D5F46 /* LandingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957E64125A58E33003D5F46 /* LandingView.swift */; };
 		D957E64425A58E36003D5F46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D957E64325A58E36003D5F46 /* Assets.xcassets */; };
 		D957E64725A58E36003D5F46 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D957E64625A58E36003D5F46 /* Preview Assets.xcassets */; };
 		D957E65225A58E36003D5F46 /* TaskDoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957E65125A58E36003D5F46 /* TaskDoTests.swift */; };
 		D957E65D25A58E36003D5F46 /* TaskDoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D957E65C25A58E36003D5F46 /* TaskDoUITests.swift */; };
+		D95F88BD269C2AC300F07B60 /* DragRelocateView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D95F88BC269C2AC200F07B60 /* DragRelocateView.swift */; };
+		D96DD37C25EF97DD00962CAF /* FocusModePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96DD37B25EF97DD00962CAF /* FocusModePopUpView.swift */; };
+		D96DD38125F0BB6E00962CAF /* BottomTaskDisplayTypePopUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96DD38025F0BB6E00962CAF /* BottomTaskDisplayTypePopUpView.swift */; };
+		D96DD38625F0C16E00962CAF /* TaskViewOptionsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D96DD38525F0C16E00962CAF /* TaskViewOptionsView.swift */; };
+		D97191EF25DE2DEE005F9525 /* ConfettieLottieView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D97191EE25DE2DEE005F9525 /* ConfettieLottieView.swift */; };
+		D98F9D5B25DE34270000612D /* Confetti.json in Resources */ = {isa = PBXBuildFile; fileRef = D98F9D5A25DE34270000612D /* Confetti.json */; };
+		D98F9D6025DE36030000612D /* Confetti2.json in Resources */ = {isa = PBXBuildFile; fileRef = D98F9D5F25DE36030000612D /* Confetti2.json */; };
+		D98F9D6525DE50170000612D /* ProfileViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D98F9D6425DE50170000612D /* ProfileViewModel.swift */; };
+		D99F6A0426F1EA9200BBB48B /* TimerSettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99F6A0326F1EA9200BBB48B /* TimerSettingsView.swift */; };
+		D99F6A0926F1F13E00BBB48B /* KeyboardHeightHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = D99F6A0826F1F13E00BBB48B /* KeyboardHeightHelper.swift */; };
+		D9B19A3625BC0A5000DD1899 /* LandingButtonStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19A3525BC0A5000DD1899 /* LandingButtonStyle.swift */; };
+		D9B19A3B25BC0DE100DD1899 /* Color+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19A3A25BC0DE100DD1899 /* Color+Extension.swift */; };
+		D9B19A4325BC129E00DD1899 /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19A4225BC129E00DD1899 /* TaskListView.swift */; };
+		D9B19A4B25BC137300DD1899 /* LandingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19A4A25BC137300DD1899 /* LandingViewModel.swift */; };
+		D9B19A5325BC286F00DD1899 /* TabContainerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19A5225BC286F00DD1899 /* TabContainerView.swift */; };
+		D9B19A5925BC2AC300DD1899 /* RoundedCornersStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19A5825BC2AC300DD1899 /* RoundedCornersStyle.swift */; };
+		D9B19A6425BC497C00DD1899 /* NewTaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19A6325BC497B00DD1899 /* NewTaskView.swift */; };
+		D9B19A6C25BD2ED700DD1899 /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19A6B25BD2ED600DD1899 /* TaskListViewModel.swift */; };
+		D9B19A7125BD2F3100DD1899 /* TaskView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19A7025BD2F3100DD1899 /* TaskView.swift */; };
+		D9B19A7925BD34CD00DD1899 /* NewTaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19A7825BD34CD00DD1899 /* NewTaskViewModel.swift */; };
+		D9B19A8125BE598800DD1899 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D9B19A8025BE598800DD1899 /* GoogleService-Info.plist */; };
+		D9B19AA825BE600A00DD1899 /* UserService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19AA725BE600A00DD1899 /* UserService.swift */; };
+		D9B19AAD25BE6D7E00DD1899 /* TaskDoError.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19AAC25BE6D7E00DD1899 /* TaskDoError.swift */; };
+		D9B19ABD25BE6FA100DD1899 /* AuthPublihser.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19ABC25BE6FA100DD1899 /* AuthPublihser.swift */; };
+		D9B19AC225BE6FB500DD1899 /* QuerySnapshotPublisher.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19AC125BE6FB400DD1899 /* QuerySnapshotPublisher.swift */; };
+		D9B19AC725BE7B8F00DD1899 /* TaskService.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19AC625BE7B8F00DD1899 /* TaskService.swift */; };
+		D9B19AD025BE7CC100DD1899 /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19ACF25BE7CC100DD1899 /* Task.swift */; };
+		D9B19ADB25BE8F5100DD1899 /* TaskItemProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19ADA25BE8F5100DD1899 /* TaskItemProtocol.swift */; };
+		D9B19AE025BEA56A00DD1899 /* TaskViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9B19ADF25BEA56900DD1899 /* TaskViewModel.swift */; };
+		D9E488B026BE88B7009A04B1 /* PremiumView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9E488AF26BE88B7009A04B1 /* PremiumView.swift */; };
+		E27AB4C6AB98331C8FA90BD0 /* Pods_TaskDo_TaskDoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4809B97C3EF916F354318265 /* Pods_TaskDo_TaskDoUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -33,9 +99,48 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		09B4812C19658C13A2BAE866 /* Pods-TaskDo-TaskDoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskDo-TaskDoUITests.release.xcconfig"; path = "Target Support Files/Pods-TaskDo-TaskDoUITests/Pods-TaskDo-TaskDoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		421CF4432F290DBAF8C6D01B /* Pods-TaskDo-TaskDoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskDo-TaskDoUITests.debug.xcconfig"; path = "Target Support Files/Pods-TaskDo-TaskDoUITests/Pods-TaskDo-TaskDoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4809B97C3EF916F354318265 /* Pods_TaskDo_TaskDoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskDo_TaskDoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4FFF0CE0623034459E155B60 /* Pods-TaskDoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskDoTests.release.xcconfig"; path = "Target Support Files/Pods-TaskDoTests/Pods-TaskDoTests.release.xcconfig"; sourceTree = "<group>"; };
+		52839161048FBE145F312C4F /* Pods-TaskDo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskDo.debug.xcconfig"; path = "Target Support Files/Pods-TaskDo/Pods-TaskDo.debug.xcconfig"; sourceTree = "<group>"; };
+		76CAEA1B38917058C6AFB9C0 /* Pods_TaskDo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskDo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D22973B52B060796D4D62AF /* Pods-TaskDoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskDoTests.debug.xcconfig"; path = "Target Support Files/Pods-TaskDoTests/Pods-TaskDoTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C438756C16EF9DD0D846B5E4 /* Pods_TaskDoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_TaskDoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D90A01B025D21D4D006852EB /* LineChartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LineChartView.swift; sourceTree = "<group>"; };
+		D90A01D325DB6AC5006852EB /* CalendarListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalendarListView.swift; sourceTree = "<group>"; };
+		D90A01D825DBA7DA006852EB /* ProfileView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileView.swift; sourceTree = "<group>"; };
+		D90A01FC25DE1522006852EB /* TopPopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPopUpView.swift; sourceTree = "<group>"; };
+		D90A021025DE1C5E006852EB /* LottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LottieView.swift; sourceTree = "<group>"; };
+		D91C62BD25C50B7B004E50C7 /* TimerTagsOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerTagsOptionsView.swift; sourceTree = "<group>"; };
+		D91C62C225C5181D004E50C7 /* StatsItemViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsItemViewModel.swift; sourceTree = "<group>"; };
+		D91C62C725C546AB004E50C7 /* StatsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsViewModel.swift; sourceTree = "<group>"; };
+		D91C62CC25C7D4BE004E50C7 /* NotesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesView.swift; sourceTree = "<group>"; };
+		D91C62D125C80DC1004E50C7 /* NotesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesViewModel.swift; sourceTree = "<group>"; };
+		D91C62D625C926E1004E50C7 /* NotesService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotesService.swift; sourceTree = "<group>"; };
+		D91C62DB25C92775004E50C7 /* Notes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notes.swift; sourceTree = "<group>"; };
+		D92960B42685EB7100A58D9B /* Tick.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Tick.json; sourceTree = "<group>"; };
+		D92960BC2685EBDE00A58D9B /* TickLottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TickLottieView.swift; sourceTree = "<group>"; };
+		D92960F32692B1E900A58D9B /* Cloud.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Cloud.json; sourceTree = "<group>"; };
+		D92960F82692B21C00A58D9B /* CloudLottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CloudLottieView.swift; sourceTree = "<group>"; };
+		D93DD568261E936F005B88D2 /* LogInSignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInSignUpView.swift; sourceTree = "<group>"; };
+		D93DD56D261E937E005B88D2 /* SignOutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignOutView.swift; sourceTree = "<group>"; };
+		D93EC58725CE71450050FEFB /* PagerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagerView.swift; sourceTree = "<group>"; };
+		D93EC58D25D0CBF90050FEFB /* DayStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DayStatsView.swift; sourceTree = "<group>"; };
+		D93EC59525D0CC150050FEFB /* WeekStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeekStatsView.swift; sourceTree = "<group>"; };
+		D93EC59A25D0CC240050FEFB /* MonthStatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonthStatsView.swift; sourceTree = "<group>"; };
+		D945F5E625BFACF50088FAD2 /* DefaultSettings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DefaultSettings.swift; sourceTree = "<group>"; };
+		D945F5EE25C011590088FAD2 /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
+		D945F5F325C114190088FAD2 /* TimerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerView.swift; sourceTree = "<group>"; };
+		D945F5F825C114370088FAD2 /* StatsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsView.swift; sourceTree = "<group>"; };
+		D945F5FD25C12CD70088FAD2 /* ViewExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewExtension.swift; sourceTree = "<group>"; };
+		D945F60225C15B590088FAD2 /* AnimationExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimationExtension.swift; sourceTree = "<group>"; };
+		D945F60725C26EE60088FAD2 /* TimerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewModel.swift; sourceTree = "<group>"; };
+		D945F61425C3E6C90088FAD2 /* StatsService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatsService.swift; sourceTree = "<group>"; };
+		D945F61925C3E8350088FAD2 /* Stats.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stats.swift; sourceTree = "<group>"; };
 		D957E63C25A58E33003D5F46 /* TaskDo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskDo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D957E63F25A58E33003D5F46 /* TaskDoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDoApp.swift; sourceTree = "<group>"; };
-		D957E64125A58E33003D5F46 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		D957E64125A58E33003D5F46 /* LandingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingView.swift; sourceTree = "<group>"; };
 		D957E64325A58E36003D5F46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D957E64625A58E36003D5F46 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		D957E64825A58E36003D5F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -45,6 +150,37 @@
 		D957E65825A58E36003D5F46 /* TaskDoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TaskDoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D957E65C25A58E36003D5F46 /* TaskDoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDoUITests.swift; sourceTree = "<group>"; };
 		D957E65E25A58E36003D5F46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D95F88BC269C2AC200F07B60 /* DragRelocateView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DragRelocateView.swift; sourceTree = "<group>"; };
+		D96DD37B25EF97DD00962CAF /* FocusModePopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FocusModePopUpView.swift; sourceTree = "<group>"; };
+		D96DD38025F0BB6E00962CAF /* BottomTaskDisplayTypePopUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BottomTaskDisplayTypePopUpView.swift; sourceTree = "<group>"; };
+		D96DD38525F0C16E00962CAF /* TaskViewOptionsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewOptionsView.swift; sourceTree = "<group>"; };
+		D97191EE25DE2DEE005F9525 /* ConfettieLottieView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConfettieLottieView.swift; sourceTree = "<group>"; };
+		D98F9D5A25DE34270000612D /* Confetti.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Confetti.json; sourceTree = "<group>"; };
+		D98F9D5F25DE36030000612D /* Confetti2.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Confetti2.json; sourceTree = "<group>"; };
+		D98F9D6425DE50170000612D /* ProfileViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewModel.swift; sourceTree = "<group>"; };
+		D99F6A0326F1EA9200BBB48B /* TimerSettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerSettingsView.swift; sourceTree = "<group>"; };
+		D99F6A0826F1F13E00BBB48B /* KeyboardHeightHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardHeightHelper.swift; sourceTree = "<group>"; };
+		D9B19A3525BC0A5000DD1899 /* LandingButtonStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingButtonStyle.swift; sourceTree = "<group>"; };
+		D9B19A3A25BC0DE100DD1899 /* Color+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color+Extension.swift"; sourceTree = "<group>"; };
+		D9B19A4225BC129E00DD1899 /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		D9B19A4A25BC137300DD1899 /* LandingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandingViewModel.swift; sourceTree = "<group>"; };
+		D9B19A5225BC286F00DD1899 /* TabContainerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabContainerView.swift; sourceTree = "<group>"; };
+		D9B19A5825BC2AC300DD1899 /* RoundedCornersStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedCornersStyle.swift; sourceTree = "<group>"; };
+		D9B19A6325BC497B00DD1899 /* NewTaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskView.swift; sourceTree = "<group>"; };
+		D9B19A6B25BD2ED600DD1899 /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		D9B19A7025BD2F3100DD1899 /* TaskView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskView.swift; sourceTree = "<group>"; };
+		D9B19A7825BD34CD00DD1899 /* NewTaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewTaskViewModel.swift; sourceTree = "<group>"; };
+		D9B19A8025BE598800DD1899 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		D9B19AA725BE600A00DD1899 /* UserService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserService.swift; sourceTree = "<group>"; };
+		D9B19AAC25BE6D7E00DD1899 /* TaskDoError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskDoError.swift; sourceTree = "<group>"; };
+		D9B19ABC25BE6FA100DD1899 /* AuthPublihser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthPublihser.swift; sourceTree = "<group>"; };
+		D9B19AC125BE6FB400DD1899 /* QuerySnapshotPublisher.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuerySnapshotPublisher.swift; sourceTree = "<group>"; };
+		D9B19AC625BE7B8F00DD1899 /* TaskService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskService.swift; sourceTree = "<group>"; };
+		D9B19ACF25BE7CC100DD1899 /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		D9B19ADA25BE8F5100DD1899 /* TaskItemProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskItemProtocol.swift; sourceTree = "<group>"; };
+		D9B19ADF25BEA56900DD1899 /* TaskViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskViewModel.swift; sourceTree = "<group>"; };
+		D9E488AF26BE88B7009A04B1 /* PremiumView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PremiumView.swift; sourceTree = "<group>"; };
+		E3577DA1FBDDB408037817BD /* Pods-TaskDo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TaskDo.release.xcconfig"; path = "Target Support Files/Pods-TaskDo/Pods-TaskDo.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +188,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D05AC2B2D25154E88D5485C /* Pods_TaskDo.framework in Frameworks */,
+				D929613426969DBF00A58D9B /* FSCalendar in Frameworks */,
+				D90A020325DE1B7D006852EB /* Lottie in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -59,6 +198,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A0EE721E79784099F341F442 /* Pods_TaskDoTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,12 +206,54 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E27AB4C6AB98331C8FA90BD0 /* Pods_TaskDo_TaskDoUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C85B0F1AFB27411B45DE13C6 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				52839161048FBE145F312C4F /* Pods-TaskDo.debug.xcconfig */,
+				E3577DA1FBDDB408037817BD /* Pods-TaskDo.release.xcconfig */,
+				421CF4432F290DBAF8C6D01B /* Pods-TaskDo-TaskDoUITests.debug.xcconfig */,
+				09B4812C19658C13A2BAE866 /* Pods-TaskDo-TaskDoUITests.release.xcconfig */,
+				9D22973B52B060796D4D62AF /* Pods-TaskDoTests.debug.xcconfig */,
+				4FFF0CE0623034459E155B60 /* Pods-TaskDoTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		D90A021525DE1C65006852EB /* PopUpView */ = {
+			isa = PBXGroup;
+			children = (
+				D90A01FC25DE1522006852EB /* TopPopUpView.swift */,
+				D91C62BD25C50B7B004E50C7 /* TimerTagsOptionsView.swift */,
+				D96DD38525F0C16E00962CAF /* TaskViewOptionsView.swift */,
+				D96DD37B25EF97DD00962CAF /* FocusModePopUpView.swift */,
+				D96DD38025F0BB6E00962CAF /* BottomTaskDisplayTypePopUpView.swift */,
+				D90A021025DE1C5E006852EB /* LottieView.swift */,
+				D97191EE25DE2DEE005F9525 /* ConfettieLottieView.swift */,
+				D92960F82692B21C00A58D9B /* CloudLottieView.swift */,
+				D92960BC2685EBDE00A58D9B /* TickLottieView.swift */,
+				D99F6A0326F1EA9200BBB48B /* TimerSettingsView.swift */,
+			);
+			path = PopUpView;
+			sourceTree = "<group>";
+		};
+		D93EC58C25D0CBD70050FEFB /* StatsView */ = {
+			isa = PBXGroup;
+			children = (
+				D93EC58D25D0CBF90050FEFB /* DayStatsView.swift */,
+				D93EC59525D0CC150050FEFB /* WeekStatsView.swift */,
+				D93EC59A25D0CC240050FEFB /* MonthStatsView.swift */,
+				D90A01B025D21D4D006852EB /* LineChartView.swift */,
+			);
+			path = StatsView;
+			sourceTree = "<group>";
+		};
 		D957E63325A58E33003D5F46 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +261,8 @@
 				D957E65025A58E36003D5F46 /* TaskDoTests */,
 				D957E65B25A58E36003D5F46 /* TaskDoUITests */,
 				D957E63D25A58E33003D5F46 /* Products */,
+				C85B0F1AFB27411B45DE13C6 /* Pods */,
+				E97C8CA7AE297261E6CE26E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,9 +279,19 @@
 		D957E63E25A58E33003D5F46 /* TaskDo */ = {
 			isa = PBXGroup;
 			children = (
+				D9B19A8025BE598800DD1899 /* GoogleService-Info.plist */,
+				D945F5E625BFACF50088FAD2 /* DefaultSettings.swift */,
+				D9B19ACE25BE7CA600DD1899 /* Models */,
+				D9B19ABB25BE6F7600DD1899 /* Publishers */,
+				D9B19AA625BE5FFB00DD1899 /* Services */,
+				D9B19AB125BE6D8C00DD1899 /* Error */,
+				D9B19A4925BC134B00DD1899 /* Extensions */,
+				D9B19A4825BC134500DD1899 /* ViewModels */,
+				D9B19A5725BC2AB000DD1899 /* Modifiers */,
+				D9B19A4725BC133800DD1899 /* Views */,
 				D957E63F25A58E33003D5F46 /* TaskDoApp.swift */,
-				D957E64125A58E33003D5F46 /* ContentView.swift */,
 				D957E64325A58E36003D5F46 /* Assets.xcassets */,
+				D98F9D5925DE34270000612D /* LottieConfetti */,
 				D957E64825A58E36003D5F46 /* Info.plist */,
 				D957E64525A58E36003D5F46 /* Preview Content */,
 			);
@@ -130,6 +324,127 @@
 			path = TaskDoUITests;
 			sourceTree = "<group>";
 		};
+		D98F9D5925DE34270000612D /* LottieConfetti */ = {
+			isa = PBXGroup;
+			children = (
+				D98F9D5F25DE36030000612D /* Confetti2.json */,
+				D92960B42685EB7100A58D9B /* Tick.json */,
+				D92960F32692B1E900A58D9B /* Cloud.json */,
+				D98F9D5A25DE34270000612D /* Confetti.json */,
+			);
+			path = LottieConfetti;
+			sourceTree = "<group>";
+		};
+		D9B19A4725BC133800DD1899 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D957E64125A58E33003D5F46 /* LandingView.swift */,
+				D9B19A5225BC286F00DD1899 /* TabContainerView.swift */,
+				D9B19A4225BC129E00DD1899 /* TaskListView.swift */,
+				D9B19A7025BD2F3100DD1899 /* TaskView.swift */,
+				D90A01D325DB6AC5006852EB /* CalendarListView.swift */,
+				D9B19A6325BC497B00DD1899 /* NewTaskView.swift */,
+				D91C62CC25C7D4BE004E50C7 /* NotesView.swift */,
+				D945F5F325C114190088FAD2 /* TimerView.swift */,
+				D945F5F825C114370088FAD2 /* StatsView.swift */,
+				D90A01D825DBA7DA006852EB /* ProfileView.swift */,
+				D9E488AF26BE88B7009A04B1 /* PremiumView.swift */,
+				D93DD568261E936F005B88D2 /* LogInSignUpView.swift */,
+				D93DD56D261E937E005B88D2 /* SignOutView.swift */,
+				D90A021525DE1C65006852EB /* PopUpView */,
+				D93EC58C25D0CBD70050FEFB /* StatsView */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D9B19A4825BC134500DD1899 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D9B19A4A25BC137300DD1899 /* LandingViewModel.swift */,
+				D9B19A7825BD34CD00DD1899 /* NewTaskViewModel.swift */,
+				D9B19ADF25BEA56900DD1899 /* TaskViewModel.swift */,
+				D95F88BC269C2AC200F07B60 /* DragRelocateView.swift */,
+				D9B19A6B25BD2ED600DD1899 /* TaskListViewModel.swift */,
+				D9B19ADA25BE8F5100DD1899 /* TaskItemProtocol.swift */,
+				D945F60725C26EE60088FAD2 /* TimerViewModel.swift */,
+				D91C62D125C80DC1004E50C7 /* NotesViewModel.swift */,
+				D91C62C225C5181D004E50C7 /* StatsItemViewModel.swift */,
+				D91C62C725C546AB004E50C7 /* StatsViewModel.swift */,
+				D98F9D6425DE50170000612D /* ProfileViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		D9B19A4925BC134B00DD1899 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				D9B19A3A25BC0DE100DD1899 /* Color+Extension.swift */,
+				D945F5EE25C011590088FAD2 /* Date+Extension.swift */,
+				D945F5FD25C12CD70088FAD2 /* ViewExtension.swift */,
+				D945F60225C15B590088FAD2 /* AnimationExtension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		D9B19A5725BC2AB000DD1899 /* Modifiers */ = {
+			isa = PBXGroup;
+			children = (
+				D9B19A5825BC2AC300DD1899 /* RoundedCornersStyle.swift */,
+				D9B19A3525BC0A5000DD1899 /* LandingButtonStyle.swift */,
+				D93EC58725CE71450050FEFB /* PagerView.swift */,
+				D99F6A0826F1F13E00BBB48B /* KeyboardHeightHelper.swift */,
+			);
+			path = Modifiers;
+			sourceTree = "<group>";
+		};
+		D9B19AA625BE5FFB00DD1899 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D9B19AA725BE600A00DD1899 /* UserService.swift */,
+				D9B19AC625BE7B8F00DD1899 /* TaskService.swift */,
+				D945F61425C3E6C90088FAD2 /* StatsService.swift */,
+				D91C62D625C926E1004E50C7 /* NotesService.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		D9B19AB125BE6D8C00DD1899 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				D9B19AAC25BE6D7E00DD1899 /* TaskDoError.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		D9B19ABB25BE6F7600DD1899 /* Publishers */ = {
+			isa = PBXGroup;
+			children = (
+				D9B19ABC25BE6FA100DD1899 /* AuthPublihser.swift */,
+				D9B19AC125BE6FB400DD1899 /* QuerySnapshotPublisher.swift */,
+			);
+			path = Publishers;
+			sourceTree = "<group>";
+		};
+		D9B19ACE25BE7CA600DD1899 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				D9B19ACF25BE7CC100DD1899 /* Task.swift */,
+				D945F61925C3E8350088FAD2 /* Stats.swift */,
+				D91C62DB25C92775004E50C7 /* Notes.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		E97C8CA7AE297261E6CE26E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				76CAEA1B38917058C6AFB9C0 /* Pods_TaskDo.framework */,
+				4809B97C3EF916F354318265 /* Pods_TaskDo_TaskDoUITests.framework */,
+				C438756C16EF9DD0D846B5E4 /* Pods_TaskDoTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,15 +452,21 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D957E66125A58E36003D5F46 /* Build configuration list for PBXNativeTarget "TaskDo" */;
 			buildPhases = (
+				5B207D722DC6255C60D90BA7 /* [CP] Check Pods Manifest.lock */,
 				D957E63825A58E33003D5F46 /* Sources */,
 				D957E63925A58E33003D5F46 /* Frameworks */,
 				D957E63A25A58E33003D5F46 /* Resources */,
+				5508ACC1913CA62E416243E7 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = TaskDo;
+			packageProductDependencies = (
+				D90A020225DE1B7D006852EB /* Lottie */,
+				D929613326969DBF00A58D9B /* FSCalendar */,
+			);
 			productName = TaskDo;
 			productReference = D957E63C25A58E33003D5F46 /* TaskDo.app */;
 			productType = "com.apple.product-type.application";
@@ -154,6 +475,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D957E66425A58E36003D5F46 /* Build configuration list for PBXNativeTarget "TaskDoTests" */;
 			buildPhases = (
+				8DE2EE691B9FA37E83A15891 /* [CP] Check Pods Manifest.lock */,
 				D957E64925A58E36003D5F46 /* Sources */,
 				D957E64A25A58E36003D5F46 /* Frameworks */,
 				D957E64B25A58E36003D5F46 /* Resources */,
@@ -172,9 +494,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = D957E66725A58E36003D5F46 /* Build configuration list for PBXNativeTarget "TaskDoUITests" */;
 			buildPhases = (
+				20D698652B92CE4DEA9E4256 /* [CP] Check Pods Manifest.lock */,
 				D957E65425A58E36003D5F46 /* Sources */,
 				D957E65525A58E36003D5F46 /* Frameworks */,
 				D957E65625A58E36003D5F46 /* Resources */,
+				0DC1D80DD26FFE7667B1E857 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -217,6 +541,10 @@
 				Base,
 			);
 			mainGroup = D957E63325A58E33003D5F46;
+			packageReferences = (
+				D90A020125DE1B7C006852EB /* XCRemoteSwiftPackageReference "lottie-ios" */,
+				D929613226969DBE00A58D9B /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = D957E63D25A58E33003D5F46 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -234,7 +562,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				D957E64725A58E36003D5F46 /* Preview Assets.xcassets in Resources */,
+				D98F9D5B25DE34270000612D /* Confetti.json in Resources */,
+				D9B19A8125BE598800DD1899 /* GoogleService-Info.plist in Resources */,
 				D957E64425A58E36003D5F46 /* Assets.xcassets in Resources */,
+				D92960B52685EB7100A58D9B /* Tick.json in Resources */,
+				D98F9D6025DE36030000612D /* Confetti2.json in Resources */,
+				D92960F42692B1E900A58D9B /* Cloud.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +587,172 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0DC1D80DD26FFE7667B1E857 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskDo-TaskDoUITests/Pods-TaskDo-TaskDoUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskDo-TaskDoUITests/Pods-TaskDo-TaskDoUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskDo-TaskDoUITests/Pods-TaskDo-TaskDoUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		20D698652B92CE4DEA9E4256 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskDo-TaskDoUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5508ACC1913CA62E416243E7 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskDo/Pods-TaskDo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-TaskDo/Pods-TaskDo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-TaskDo/Pods-TaskDo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		5B207D722DC6255C60D90BA7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskDo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8DE2EE691B9FA37E83A15891 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-TaskDoTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		D957E63825A58E33003D5F46 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D957E64225A58E33003D5F46 /* ContentView.swift in Sources */,
+				D957E64225A58E33003D5F46 /* LandingView.swift in Sources */,
+				D93EC58825CE71460050FEFB /* PagerView.swift in Sources */,
+				D96DD38625F0C16E00962CAF /* TaskViewOptionsView.swift in Sources */,
+				D90A021125DE1C5E006852EB /* LottieView.swift in Sources */,
+				D945F5EF25C011590088FAD2 /* Date+Extension.swift in Sources */,
 				D957E64025A58E33003D5F46 /* TaskDoApp.swift in Sources */,
+				D93DD569261E9370005B88D2 /* LogInSignUpView.swift in Sources */,
+				D9B19A7925BD34CD00DD1899 /* NewTaskViewModel.swift in Sources */,
+				D93DD56E261E937E005B88D2 /* SignOutView.swift in Sources */,
+				D945F5FE25C12CD80088FAD2 /* ViewExtension.swift in Sources */,
+				D9B19ABD25BE6FA100DD1899 /* AuthPublihser.swift in Sources */,
+				D91C62C325C5181D004E50C7 /* StatsItemViewModel.swift in Sources */,
+				D90A01D425DB6AC8006852EB /* CalendarListView.swift in Sources */,
+				D945F60325C15B590088FAD2 /* AnimationExtension.swift in Sources */,
+				D9B19A6425BC497C00DD1899 /* NewTaskView.swift in Sources */,
+				D9B19A3625BC0A5000DD1899 /* LandingButtonStyle.swift in Sources */,
+				D91C62C825C546AB004E50C7 /* StatsViewModel.swift in Sources */,
+				D95F88BD269C2AC300F07B60 /* DragRelocateView.swift in Sources */,
+				D90A01D925DBA7DD006852EB /* ProfileView.swift in Sources */,
+				D99F6A0426F1EA9200BBB48B /* TimerSettingsView.swift in Sources */,
+				D945F61525C3E6CA0088FAD2 /* StatsService.swift in Sources */,
+				D945F61A25C3E8350088FAD2 /* Stats.swift in Sources */,
+				D9B19A4325BC129E00DD1899 /* TaskListView.swift in Sources */,
+				D93EC59B25D0CC240050FEFB /* MonthStatsView.swift in Sources */,
+				D97191EF25DE2DEE005F9525 /* ConfettieLottieView.swift in Sources */,
+				D9B19AA825BE600A00DD1899 /* UserService.swift in Sources */,
+				D9B19A5925BC2AC300DD1899 /* RoundedCornersStyle.swift in Sources */,
+				D98F9D6525DE50170000612D /* ProfileViewModel.swift in Sources */,
+				D9B19A4B25BC137300DD1899 /* LandingViewModel.swift in Sources */,
+				D92960F92692B21C00A58D9B /* CloudLottieView.swift in Sources */,
+				D91C62CD25C7D4BE004E50C7 /* NotesView.swift in Sources */,
+				D99F6A0926F1F13E00BBB48B /* KeyboardHeightHelper.swift in Sources */,
+				D93EC58E25D0CBF90050FEFB /* DayStatsView.swift in Sources */,
+				D945F5F425C114190088FAD2 /* TimerView.swift in Sources */,
+				D9B19A6C25BD2ED700DD1899 /* TaskListViewModel.swift in Sources */,
+				D90A01B125D21D4D006852EB /* LineChartView.swift in Sources */,
+				D91C62D225C80DC1004E50C7 /* NotesViewModel.swift in Sources */,
+				D9B19AC225BE6FB500DD1899 /* QuerySnapshotPublisher.swift in Sources */,
+				D9B19A3B25BC0DE100DD1899 /* Color+Extension.swift in Sources */,
+				D91C62DC25C92775004E50C7 /* Notes.swift in Sources */,
+				D9B19AE025BEA56A00DD1899 /* TaskViewModel.swift in Sources */,
+				D9B19AC725BE7B8F00DD1899 /* TaskService.swift in Sources */,
+				D93EC59625D0CC150050FEFB /* WeekStatsView.swift in Sources */,
+				D92960BD2685EBDE00A58D9B /* TickLottieView.swift in Sources */,
+				D945F60825C26EE70088FAD2 /* TimerViewModel.swift in Sources */,
+				D9B19ADB25BE8F5100DD1899 /* TaskItemProtocol.swift in Sources */,
+				D9B19A7125BD2F3100DD1899 /* TaskView.swift in Sources */,
+				D96DD37C25EF97DD00962CAF /* FocusModePopUpView.swift in Sources */,
+				D91C62D725C926E2004E50C7 /* NotesService.swift in Sources */,
+				D945F5E725BFACF50088FAD2 /* DefaultSettings.swift in Sources */,
+				D945F5F925C114370088FAD2 /* StatsView.swift in Sources */,
+				D90A01FD25DE1526006852EB /* TopPopUpView.swift in Sources */,
+				D91C62BE25C50B7B004E50C7 /* TimerTagsOptionsView.swift in Sources */,
+				D9B19AAD25BE6D7E00DD1899 /* TaskDoError.swift in Sources */,
+				D9B19AD025BE7CC100DD1899 /* Task.swift in Sources */,
+				D9B19A5325BC286F00DD1899 /* TabContainerView.swift in Sources */,
+				D9E488B026BE88B7009A04B1 /* PremiumView.swift in Sources */,
+				D96DD38125F0BB6E00962CAF /* BottomTaskDisplayTypePopUpView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -330,6 +822,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
@@ -391,6 +884,7 @@
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				COPY_PHASE_STRIP = NO;
+				DEAD_CODE_STRIPPING = YES;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -414,10 +908,12 @@
 		};
 		D957E66225A58E36003D5F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 52839161048FBE145F312C4F /* Pods-TaskDo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskDo/Preview Content\"";
 				DEVELOPMENT_TEAM = 7WPKSMVHSR;
 				ENABLE_PREVIEWS = YES;
@@ -436,10 +932,12 @@
 		};
 		D957E66325A58E36003D5F46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E3577DA1FBDDB408037817BD /* Pods-TaskDo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEAD_CODE_STRIPPING = NO;
 				DEVELOPMENT_ASSET_PATHS = "\"TaskDo/Preview Content\"";
 				DEVELOPMENT_TEAM = 7WPKSMVHSR;
 				ENABLE_PREVIEWS = YES;
@@ -458,6 +956,7 @@
 		};
 		D957E66525A58E36003D5F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9D22973B52B060796D4D62AF /* Pods-TaskDoTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -480,6 +979,7 @@
 		};
 		D957E66625A58E36003D5F46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4FFF0CE0623034459E155B60 /* Pods-TaskDoTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -502,6 +1002,7 @@
 		};
 		D957E66825A58E36003D5F46 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 421CF4432F290DBAF8C6D01B /* Pods-TaskDo-TaskDoUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -522,6 +1023,7 @@
 		};
 		D957E66925A58E36003D5F46 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 09B4812C19658C13A2BAE866 /* Pods-TaskDo-TaskDoUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -580,6 +1082,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		D90A020125DE1B7C006852EB /* XCRemoteSwiftPackageReference "lottie-ios" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/airbnb/lottie-ios.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 3.2.1;
+			};
+		};
+		D929613226969DBE00A58D9B /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.8.2;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		D90A020225DE1B7D006852EB /* Lottie */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D90A020125DE1B7C006852EB /* XCRemoteSwiftPackageReference "lottie-ios" */;
+			productName = Lottie;
+		};
+		D929613326969DBF00A58D9B /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = D929613226969DBE00A58D9B /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = D957E63425A58E33003D5F46 /* Project object */;
 }
